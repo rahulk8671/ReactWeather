@@ -5,7 +5,7 @@ var Examples = React.createClass({
         return(
             <div>
             <h1>Examples</h1>
-            <h2>welcome</h2>
+            <h2>welcome to Examples page</h2>
             </div>
 
         );
