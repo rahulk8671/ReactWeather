@@ -4,8 +4,8 @@ var Examples = React.createClass({
     render: function() {
         return(
             <div>
-            <h1>Examples</h1>
-            <h2>welcome to Examples page</h2>
+            <h3>Examples</h3>
+            <p>welcome to Examples page</p>
             </div>
 
         );
