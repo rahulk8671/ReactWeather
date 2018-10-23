@@ -4,8 +4,16 @@ var About = React.createClass({
     render: function() {
         return(
             <div>
-                <h3>About</h3>
-                <p>Welcome to about page!!</p>
+                <h3 className="text-center">About</h3>
+                <p>This is a weather application build on React</p>
+                <p>
+                    Here are some of the tools I used:
+                </p>
+                <ul>
+                    <li>
+                        <a href="https://facebook.github.io">React</a> - This was the JavaScript freamework used.
+                    </li>
+                </ul>
             </div> 
         );
     }
