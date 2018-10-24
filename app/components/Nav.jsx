@@ -1,5 +1,6 @@
 var React = require('react');
 var {Link, IndexLink} = require('react-router');
+var ErrorModal = require('ErrorModal');
 
 var Nav = React.createClass({
     onSearch: function(e) {
