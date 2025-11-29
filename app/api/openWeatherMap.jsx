@@ -2,9 +2,12 @@ var axios = require('axios');
 
 //const OPEN_WEATHER_MAP_URL = 'https://samples.openweathermap.org/data/2.5/weather?appid=ae8798803e6b1b22c6c3f9d99495881c&units=imperial';
 
-var OPEN_WEATHER_MAP_URL = 'https://samples.openweathermap.org/data/2.5/weather?&appid=03b53d2872aa103c9cfebe1bf788cf63'
+// var OPEN_WEATHER_MAP_URL = 'https://samples.openweathermap.org/data/2.5/weather?&appid=0b9bff0ff7581abd02045c6dc33ae1ae'
+var OPEN_WEATHER_MAP_URL = "https://api.openweathermap.org/data/3.0/onecall?lat=33.44&lon=-94.04&appid=appid=0b9bff0ff7581abd02045c6dc33ae1ae"
+
 module.exports = {
     getTemp: function (location) {
+        debugger
         var  encodedLocation = encodeURIComponent(location);
         var requestURL = `${OPEN_WEATHER_MAP_URL}&q=${encodedLocation}`;
         //debugger;
